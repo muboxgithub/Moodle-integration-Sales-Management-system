@@ -14,5 +14,13 @@ link of login page https://etemari.net/enroll/Agents/login.php
 # Indivisual salles Agent Dashboard
 ![image](https://github.com/user-attachments/assets/1ad3beee-1e28-4111-8062-a334fa5c4ea8)
 
-
+# For Developer
+1. clone the project
+2. edit the connection files in first directory
+3. edit the moodle prefix accoring to your moodle installlation
+4. the data base is found in Database folder
+5. create a new database for transaction
+# Note
+Please remember that this project is designed to work specifically with Moodle 4.0. If you encounter any issues while using Moodle for course selling,
+feel free to reach out to me at muboxmuhammed86@gmail.com.
 
