@@ -1,0 +1,138 @@
+
+
+@media only screen and (max-width: 768px) {
+    
+
+    .dacontainer{
+
+        margin-top: 120px;
+        margin-bottom: 100px;
+    }
+    #barGraph{
+
+        width: 500px;
+        height: 400px;
+    }
+}
+
+.offcanvas {
+    width: 100%;
+    max-width: 400px; /* Adjust the max-width as needed */
+}
+
+.offcanvas-header {
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.offcanvas-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.offcanvas-body {
+    padding: 15px;
+}
+
+.message-box {
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.incoming-message {
+    background-color: #f0f8ff; /* Light blue for incoming messages */
+    border-top-left-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.outgoing-message {
+    background-color: #f5f5dc; /* Light yellow for outgoing messages */
+    border-top-right-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.message {
+    word-wrap: break-word;
+}
+
+.outgoin {
+    margin-top: 6px;
+}
+
+.incoming {
+    margin-top: 6px;
+}
+
+#textpointer:hover {
+    cursor: pointer;
+}
+textarea{
+    height: 10px;
+    resize: none;
+}
+
+.rounded-avtorin {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#iconimage{
+
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    border-color: rgb(150, 117, 73);
+    text-align: center;
+
+}
+.iconradius{
+    font-size: 50px;
+}
+
+.rounded-mube{
+    border-radius: 50%;
+    width:70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.search-input{
+    transition: width 0.5s ease-in;
+    width: 60%;
+}
+.search-input:hover{
+    width: 100%;
+}
+canvas {
+    border: 1px solid #ccc;
+}
+
+#searchresult {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    max-height: 200px;
+    overflow-y: auto;
+    display: none;
+}
+
+
+.textromanstyle{
+    font-family: 'Times New Roman', serif, sans-serif;
+}
